@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    </header>
+    
+    <div class="w-full h-full bg-no-repeat bg-cover"
+            style="background-image: url(https://cdn.pixabay.com/photo/2016/08/10/15/01/credit-cards-1583534_960_720.jpg);">
+        <div class="rounded-t-xl overflow-hidden p-20 ">   
+            <div class="flex items-center justify-around ">
+                <div class="rounded-md bg-gray-100 bg-opacity-75 box-content h-360 w-360 p-16 border-8 border-gray-300 border-opacity-50...">
+                    <form class="grid grid-cols-3 gap-6" action="/predict" method="POST">
+
+                        <div class="col-start-2 col-end-2"><h1 class="sm:text-2xl font-serif font-bold font-medium title-font mb-4 text-gray-700 underline p-1">Customer details please...</h1></div>
+                        <div></div>
+                        <div class="grid grid-cols-3 gap-3">
+                            <label for="exampleFormControlInput1" class="form-label">LIMIT_BALANCE</label>
+                            <input type="number" name="LIMIT_BAL" min="1000" class="form-controlborder-2 border-gray-300" id="exampleFormControlInput1" placeholder="LIMIT_BALANCE">
+                        </div>
+                        <div></div>
+                        <div class="col-auto">
+                            <label for="exampleFormControlInput1" class="form-label">AGE</label>
+                            <input type="number" name="AGE" class="form-control border-2 border-gray-300" id="exampleFormControlInput1" placeholder="age" min="1" max="120">
+                        </div>
+                        <div class="col-auto">
+                            <label for="exampleFormControlInput1" class="form-label">EDUCATION</label>
+                            <select class="form-control border-2 border-gray-300" name="EDUCATION" aria-label="Default select example">
+                                <option selected>Educational status</option>
+                                <option value="1">Graduate School</option>
+                                <option value="2">University</option>
+                                <option value="3">High School</option>
+                                <option value="4">Others</option>
+
+                            </select>
+                        </div>
+        
+        
+               
+                        <div class="col-auto">
+                        <label for="exampleFormControlInput1" class="form-label">SEX</label>
+                        
+                            <select class="form-control border-2 border-gray-300" name="SEX" aria-label="Default select example">
+                                <option selected>GENDER</option>
+                                <option value="1">MALE</option>
+                                <option value="2">FEMALE</option>
+                            </select>
+                        </div>
+                        <div class="col-auto">
+                            <label for="exampleFormControlInput1" class="form-label">MARITAL STATUS</label>
+                            <select class="form-control border-2 border-gray-300" name="MARRIAGE" aria-label="Default select example" >
+                                <option selected>select status</option>
+                                <option value="1">married</option>
+                                <option value="2">single</option>
+                                <option value="3">others</option>
+                            </select>
+                        </div>
+            
+            
+        
+                        <div class="col-auto ">
+                            <label for="exampleFormControlInput1" class="form-label">PAY_1</label>
+                            <input type="number" name="PAY_0" class="form-control border-2 border-gray-300" id="exampleFormControlInput1" placeholder="last month status" min="-2" max="12">
+                        </div>
+                        <div class="col-auto">
+                            <label for="exampleFormControlInput1" class="form-label">PAY_2</label>
+                            <input type="number" name="PAY_2" class="form-control border-2 border-gray-300" id="exampleFormControlInput1" placeholder="2nd last status" min="-2" max="12">
+                        </div>
+                        <div class="col-auto">
+                            <label for="exampleFormControlInput1" class="form-label">PAY_3</label>
+                            <input type="number" name="PAY_3" class="form-control border-2 border-gray-300" id="exampleFormControlInput1" placeholder="3rd last status" min="-2" max="12">
+                        </div>
+                        <div class="col-auto">
+                            <label for="exampleFormControlInput1" class="form-label">PAY_4</label>
+                            <input type="number" name="PAY_4" class="form-control border-2 border-gray-300" id="exampleFormControlInput1" placeholder="4th last status" min="-2" max="12">
+                        </div>
+                        <div class="col-auto">
+                            <label for="exampleFormControlInput1" class="form-label">PAY_5</label>
+                            <input type="number" name="PAY_5" class="form-control border-2 border-gray-300" id="exampleFormControlInput1" placeholder="5th last status" min="-2" max="12">
+                        </div>
+                        <div class="col-auto">
+                            <label for="exampleFormControlInput1" class="form-label">PAY_6</label>
+                            <input type="number" name="PAY_6" class="form-control border-2 border-gray-300" id="exampleFormControlInput1" placeholder="6th last status" min="-2" max="12">
+                        </div>
+                        <div class="col-auto">
+                            <label for="exampleFormControlInput1" class="form-label">BILL_AMT1</label>
+                            <input type="number" name="BILL_AMT1" class="form-control border-2 border-gray-300" id="exampleFormControlInput1" placeholder="AMOUNT TO PAY IN LAST MONTH" min="0">
+                        </div>
+                        <div class="col-auto">
+                            <label for="exampleFormControlInput1" class="form-label">BILL_AMT2</label>
+                            <input type="number" name="BILL_AMT2" class="form-control border-2 border-gray-300" id="exampleFormControlInput1" placeholder="AMOUNT TO PAY IN 2ND LAST MONTH" min="0">
+                        </div>
+                        <div class="col-auto">
+                            <label for="exampleFormControlInput1" class="form-label">BILL_AMT3</label>
+                            <input type="number" name="BILL_AMT3" class="form-control border-2 border-gray-300" id="exampleFormControlInput1" placeholder="AMOUNT TO PAY IN 3RD LAST MONTH" min="0">
+                        </div>
+                        <div class="col-auto">
+                            <label for="exampleFormControlInput1" class="form-label">BILL_AMT4</label>
+                            <input type="number" name="BILL_AMT4" class="form-control border-2 border-gray-300" id="exampleFormControlInput1" placeholder="AMOUNT TO PAY IN 4TH LAST MONTH" min="0">
+                        </div>
+                        <div class="col-auto">
+                            <label for="exampleFormControlInput1" class="form-label">BILL_AMT5</label>
+                            <input type="number" name="BILL_AMT5" class="form-control border-2 border-gray-300" id="exampleFormControlInput1" placeholder="AMOUNT TO PAY IN 5TH LAST MONTH" min="0">
+                        </div>
+                        <div class="col-auto">
+                            <label for="exampleFormControlInput1" class="form-label">BILL_AMT6</label>
+                            <input type="number" name="BILL_AMT6" class="form-control border-2 border-gray-300" id="exampleFormControlInput1" placeholder="AMOUNT TO PAY IN 6THLAST MONTH" min="0">
+                        </div>
+                        <div class="col-auto">
+                            <label for="exampleFormControlInput1" class="form-label">PAY_AMT1</label>
+                            <input type="number" name="PAY_AMT1" class="form-control border-2 border-gray-300" id="exampleFormControlInput1" placeholder="ACTUAL AMOUNT PAID IN LAST MONTH" min="0">
+                        </div>
+                        <div class="col-auto">
+                            <label for="exampleFormControlInput1" class="form-label">PAY_AMT2</label>
+                            <input type="number" name="PAY_AMT2" class="form-control border-2 border-gray-300" id="exampleFormControlInput1" placeholder="ACTUAL AMOUNT PAID IN 2NDLAST MONTH" min="0">
+                        </div>
+                        <div class="col-auto">
+                            <label for="exampleFormControlInput1" class="form-label">PAY_AMT3</label>
+                            <input type="number" name="PAY_AMT3" class="form-control border-2 border-gray-300" id="exampleFormControlInput1" placeholder="ACTUAL AMOUNT PAID IN 3RDLAST MONTH" min="0">
+                        </div>
+                        <div class="col-auto">
+                            <label for="exampleFormControlInput1" class="form-label">PAY_AMT4</label>
+                            <input type="number" name="PAY_AMT4" class="form-control border-2 border-gray-300" id="exampleFormControlInput1" placeholder="ACTUAL AMOUNT PAID IN 4THLAST MONTH" min="0">
+                        </div>
+                        <div class="col-auto">
+                            <label for="exampleFormControlInput1" class="form-label">PAY_AMT5</label>
+                            <input type="number" name="PAY_AMT5" class="form-control border-2 border-gray-300" id="exampleFormControlInput1" placeholder="ACTUAL AMOUNT PAID IN 5THLAST MONTH" min="0">
+                        </div>
+                        <div class="col-auto ">
+                            <label for="exampleFormControlInput1" class="form-label">PAY_AMT6</label>
+                            <input type="number" name="PAY_AMT6" class="form-control border-2 border-gray-300" id="exampleFormControlInput1" placeholder="ACTUAL AMOUNT PAID IN 6THLAST MONTH" min="0">
+                        </div>
+                        <div></div>
+                        <div class="col-start-2 col-end-2">
+                        <div class="p-2 w-full h-full">
+                            <button type="submit" class="flex mx-auto text-white bg-gray-800 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" name="sub" value="PREDICT">PREDICT</button>
+                        </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+    
+        </div>
+    <div>
+</html>

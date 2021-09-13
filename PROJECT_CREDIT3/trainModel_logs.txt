@@ -1,0 +1,227 @@
+2021-09-01/11:45:34		
+ Training Started 
+/n2021-09-01/11:45:34		Started to Connect Database 
+/n2021-09-01/11:45:44		Database connected successfully 
+/n2021-09-01/11:45:44		
+ Exception occured while trainingcan only concatenate str (not "Session") to str
+/n2021-09-01/12:43:22		
+ Training Started 
+/n2021-09-01/12:43:22		Entered get_file_to_train of Get_Data/n2021-09-01/12:43:22		Found new file to train/n2021-09-01/12:43:23		Collected data from TRAIN and Exit Get_Data/n2021-09-01/12:43:23		Entered to Data_Preprocessing Class/n2021-09-01/12:43:23		 Started cleaning spaces in each cells in data frame ,whose dtype is 'object'/n2021-09-01/12:43:23		Done space removal, Exits the space_cleaning method/n2021-09-01/12:43:23		Started to remove irrelevnt columns from dataframe/n2021-09-01/12:43:23		Unwanted columns removed, Exit nouse_columns_remove method of Data_Pre_Process class/n2021-09-01/12:43:23		Started to split_dependent_independent /n2021-09-01/12:43:23		Seperated given dataframe to independent and dependent successfully, Exit split_dependent_independent method of class Data_Pre_Process/n2021-09-01/12:43:23		Started to check for null values /n2021-09-01/12:43:23		Entered to seperate_cat_num for seperating to categorical and numerical dataset/n2021-09-01/12:43:23		categorical and numerical data seperation success/n2021-09-01/12:43:23		started cleaning categorical data/n2021-09-01/12:43:23		cleaned categorical data successfully./n2021-09-01/12:43:23		cleaned categorical data successfully./n2021-09-01/12:43:23		cleaned categorical data successfully./n2021-09-01/12:43:23		cleaned categorical data successfully./n2021-09-01/12:43:23		cleaned categorical data successfully./n2021-09-01/12:43:23		cleaned categorical data successfully./n2021-09-01/12:43:23		cleaned categorical data successfully./n2021-09-01/12:43:24		cleaned categorical data successfully./n2021-09-01/12:43:24		cleaned categorical data successfully./n2021-09-01/12:43:24		Started frequency encoding nominal data/n2021-09-01/12:43:24		Successful frequency encoding nominal data/n2021-09-01/12:43:24		Started imputing_missing_numerical_data /n2021-09-01/12:43:24		Started imputing numerical data/n2021-09-01/12:43:25		Successfully imputed_missing_numerical_data /n2021-09-01/12:43:25		Entered the scale_numerical_data method of Data_Pre_Process class/n2021-09-01/12:43:25		Done Numeric data scaling, Exit scales_numeric_data method in Data_Pre_Process class/n2021-09-01/12:43:25		
+ Entered clustering_data class/n2021-09-01/12:43:25		
+ Entered clustering method in  clustering_data class/n2021-09-01/12:43:41		
+ Model for Clustering created successfully in  clustering_data class/n2021-09-01/12:43:42		
+ Clustering done successfully in  clustering_data class/n2021-09-01/12:43:42		
+ Entered in to Find Model Cluster class 
+/n2021-09-01/12:43:42		
+ Started tuning Logistic regression 
+/n2021-09-01/12:44:25		
+ Logistic regression tuned Success fully with accuracy_score:0.7438351122561649 
+/n2021-09-01/12:44:25		
+ Started tuning Random_Forest_Classifier 
+/n2021-09-01/12:48:12		
+ RandomForestClassifier  tuned Successfully with accuracy_score:0.791313949208686 
+/n2021-09-01/12:48:12		
+ Started tuning GradientBoostingClassifier 
+/n2021-09-01/12:58:23		
+ GradientBoostingClassifier  tuned Successfully with accuracy_score:0.7824806772175193 
+/n2021-09-01/12:58:23		
+ Entered in to Find Model Cluster class 
+/n2021-09-01/12:58:23		
+ Started tuning Logistic regression 
+/n2021-09-01/13:07:38		
+ Logistic regression tuned Success fully with accuracy_score:0.8606723369785338 
+/n2021-09-01/13:07:38		
+ Started tuning Random_Forest_Classifier 
+/n2021-09-01/13:09:44		
+ RandomForestClassifier  tuned Successfully with accuracy_score:0.8639125151883353 
+/n2021-09-01/13:09:44		
+ Started tuning GradientBoostingClassifier 
+/n2021-09-01/13:13:41		
+ GradientBoostingClassifier  tuned Successfully with accuracy_score:0.8582422033211826 
+/n2021-09-01/13:13:42		
+ Entered in to Find Model Cluster class 
+/n2021-09-01/13:13:42		
+ Started tuning Logistic regression 
+/n2021-09-01/13:13:51		
+ Logistic regression tuned Success fully with accuracy_score:0.805277525022748 
+/n2021-09-01/13:13:51		
+ Started tuning Random_Forest_Classifier 
+/n2021-09-01/13:15:07		
+ RandomForestClassifier  tuned Successfully with accuracy_score:0.8553230209281165 
+/n2021-09-01/13:15:07		
+ Started tuning GradientBoostingClassifier 
+/n2021-09-01/13:25:17		
+ GradientBoostingClassifier  tuned Successfully with accuracy_score:0.8498635122838945 
+/n2021-09-01/13:25:17		
+ Training Completed Successfully 
+/n2021-09-02/11:04:21		
+ Training Started 
+/n2021-09-02/11:04:21		Entered get_file_to_train of Get_Data/n2021-09-02/11:04:21		Found new file to train/n2021-09-02/11:04:21		Collected data from TRAIN and Exit Get_Data/n2021-09-02/11:04:21		Entered to Data_Preprocessing Class/n2021-09-02/11:04:21		 Started cleaning spaces in each cells in data frame ,whose dtype is 'object'/n2021-09-02/11:04:21		Done space removal, Exits the space_cleaning method/n2021-09-02/11:04:21		Started to remove irrelevnt columns from dataframe/n2021-09-02/11:04:21		Unwanted columns removed, Exit nouse_columns_remove method of Data_Pre_Process class/n2021-09-02/11:04:21		Started to split_dependent_independent /n2021-09-02/11:04:21		Seperated given dataframe to independent and dependent successfully, Exit split_dependent_independent method of class Data_Pre_Process/n2021-09-02/11:04:21		Started to check for null values /n2021-09-02/11:04:21		Entered to seperate_cat_num for seperating to categorical and numerical dataset/n2021-09-02/11:04:21		categorical and numerical data seperation success/n2021-09-02/11:04:21		started cleaning categorical data/n2021-09-02/11:04:21		cleaned categorical data successfully./n2021-09-02/11:04:21		cleaned categorical data successfully./n2021-09-02/11:04:22		cleaned categorical data successfully./n2021-09-02/11:04:22		cleaned categorical data successfully./n2021-09-02/11:04:22		cleaned categorical data successfully./n2021-09-02/11:04:22		cleaned categorical data successfully./n2021-09-02/11:04:22		cleaned categorical data successfully./n2021-09-02/11:04:22		cleaned categorical data successfully./n2021-09-02/11:04:22		cleaned categorical data successfully./n2021-09-02/11:04:22		Started frequency encoding nominal data/n2021-09-02/11:04:22		Successful frequency encoding nominal data/n2021-09-02/11:04:22		Started imputing_missing_numerical_data /n2021-09-02/11:04:22		Started imputing numerical data/n2021-09-02/11:04:23		Successfully imputed_missing_numerical_data /n2021-09-02/11:04:23		Entered the scale_numerical_data method of Data_Pre_Process class/n2021-09-02/11:04:23		Done Numeric data scaling, Exit scales_numeric_data method in Data_Pre_Process class/n2021-09-02/11:04:23		Entered to balance_data method for balancing dataset/n2021-09-02/11:04:23		Dataset balanced by balance_data method in class Data_Pre_Process /n2021-09-02/11:04:23		
+ Entered clustering_data class/n2021-09-02/11:04:23		
+ Entered clustering method in  clustering_data class/n2021-09-02/11:04:44		
+ Model for Clustering created successfully in  clustering_data class/n2021-09-02/11:04:44		
+ Clustering done successfully in  clustering_data class/n2021-09-02/11:04:44		
+ Entered in to Find Model Cluster class 
+/n2021-09-02/11:04:44		
+ Started tuning Logistic regression 
+/n2021-09-02/11:05:34		
+ Logistic regression tuned Success fully with accuracy_score:0.6112472160356347 
+/n2021-09-02/11:05:34		
+ Started tuning Random_Forest_Classifier 
+/n2021-09-02/11:07:52		
+ RandomForestClassifier  tuned Successfully with accuracy_score:1.0 
+/n2021-09-02/11:07:52		
+ Started tuning GradientBoostingClassifier 
+/n2021-09-02/11:09:26		
+ GradientBoostingClassifier  tuned Successfully with accuracy_score:1.0 
+/n2021-09-02/11:09:27		
+ Entered in to Find Model Cluster class 
+/n2021-09-02/11:09:27		
+ Started tuning Logistic regression 
+/n2021-09-02/11:09:50		
+ Logistic regression tuned Success fully with accuracy_score:0.6233382570162481 
+/n2021-09-02/11:09:50		
+ Started tuning Random_Forest_Classifier 
+/n2021-09-02/11:11:03		
+ RandomForestClassifier  tuned Successfully with accuracy_score:1.0 
+/n2021-09-02/11:11:03		
+ Started tuning GradientBoostingClassifier 
+/n2021-09-02/11:11:38		
+ GradientBoostingClassifier  tuned Successfully with accuracy_score:1.0 
+/n2021-09-02/11:11:38		
+ Entered in to Find Model Cluster class 
+/n2021-09-02/11:11:38		
+ Started tuning Logistic regression 
+/n2021-09-02/11:11:53		
+ Logistic regression tuned Success fully with accuracy_score:0.6066465256797583 
+/n2021-09-02/11:11:53		
+ Started tuning Random_Forest_Classifier 
+/n2021-09-02/11:12:47		
+ RandomForestClassifier  tuned Successfully with accuracy_score:1.0 
+/n2021-09-02/11:12:47		
+ Started tuning GradientBoostingClassifier 
+/n2021-09-02/11:13:08		
+ GradientBoostingClassifier  tuned Successfully with accuracy_score:1.0 
+/n2021-09-02/11:13:08		
+ Training Completed Successfully 
+/n2021-09-02/11:28:43		
+ Training Started 
+/n2021-09-02/11:28:43		Entered get_file_to_train of Get_Data/n2021-09-02/11:28:43		Found new file to train/n2021-09-02/11:28:43		Collected data from TRAIN and Exit Get_Data/n2021-09-02/11:28:43		Entered to Data_Preprocessing Class/n2021-09-02/11:28:43		 Started cleaning spaces in each cells in data frame ,whose dtype is 'object'/n2021-09-02/11:28:43		Done space removal, Exits the space_cleaning method/n2021-09-02/11:28:43		Started to remove irrelevnt columns from dataframe/n2021-09-02/11:28:43		Unwanted columns removed, Exit nouse_columns_remove method of Data_Pre_Process class/n2021-09-02/11:28:43		Started to split_dependent_independent /n2021-09-02/11:28:43		Seperated given dataframe to independent and dependent successfully, Exit split_dependent_independent method of class Data_Pre_Process/n2021-09-02/11:28:43		Started to check for null values /n2021-09-02/11:28:43		Entered to seperate_cat_num for seperating to categorical and numerical dataset/n2021-09-02/11:28:43		categorical and numerical data seperation success/n2021-09-02/11:28:43		started cleaning categorical data/n2021-09-02/11:28:43		cleaned categorical data successfully./n2021-09-02/11:28:43		cleaned categorical data successfully./n2021-09-02/11:28:43		cleaned categorical data successfully./n2021-09-02/11:28:43		cleaned categorical data successfully./n2021-09-02/11:28:43		cleaned categorical data successfully./n2021-09-02/11:28:44		cleaned categorical data successfully./n2021-09-02/11:28:44		cleaned categorical data successfully./n2021-09-02/11:28:44		cleaned categorical data successfully./n2021-09-02/11:28:44		cleaned categorical data successfully./n2021-09-02/11:28:44		Started frequency encoding nominal data/n2021-09-02/11:28:44		Successful frequency encoding nominal data/n2021-09-02/11:28:44		Started imputing_missing_numerical_data /n2021-09-02/11:28:44		Started imputing numerical data/n2021-09-02/11:28:44		Successfully imputed_missing_numerical_data /n2021-09-02/11:28:44		Entered the scale_numerical_data method of Data_Pre_Process class/n2021-09-02/11:28:45		Done Numeric data scaling, Exit scales_numeric_data method in Data_Pre_Process class/n2021-09-02/11:28:45		Entered to balance_data method for balancing dataset/n2021-09-02/11:28:45		Dataset balanced by balance_data method in class Data_Pre_Process /n2021-09-02/11:28:45		
+ Entered clustering_data class/n2021-09-02/11:28:45		
+ Entered clustering method in  clustering_data class/n2021-09-02/11:29:04		
+ Kmeans inertia[2078609304230876.8, 1219870992295361.0, 803357486904468.2, 606733566528625.6, 507914133705770.44, 426249864130329.75, 389128301161383.56, 362611421870147.6, 338323786825809.5]/n2021-09-02/11:29:05		
+ Model for Clustering created successfully in  clustering_data class/n2021-09-02/11:29:05		
+ Clustering done successfully in  clustering_data class/n2021-09-02/11:29:05		
+ Entered in to Find Model Cluster class 
+/n2021-09-02/11:29:05		
+ Started tuning Logistic regression 
+/n2021-09-02/11:29:52		
+ Logistic regression tuned Success fully with accuracy_score:0.6175659273971091 
+/n2021-09-02/11:29:52		
+ Started tuning Random_Forest_Classifier 
+/n2021-09-02/11:35:21		
+ RandomForestClassifier  tuned Successfully with accuracy_score:0.9116186693147964 
+/n2021-09-02/11:35:21		
+ Started tuning GradientBoostingClassifier 
+/n2021-09-02/11:54:15		
+ GradientBoostingClassifier  tuned Successfully with accuracy_score:0.9171356063113759 
+/n2021-09-02/11:54:17		
+ Entered in to Find Model Cluster class 
+/n2021-09-02/11:54:17		
+ Started tuning Logistic regression 
+/n2021-09-02/11:54:28		
+ Logistic regression tuned Success fully with accuracy_score:0.610062893081761 
+/n2021-09-02/11:54:28		
+ Started tuning Random_Forest_Classifier 
+/n2021-09-02/11:55:43		
+ RandomForestClassifier  tuned Successfully with accuracy_score:0.9371069182389937 
+/n2021-09-02/11:55:43		
+ Started tuning GradientBoostingClassifier 
+/n2021-09-02/11:57:54		
+ GradientBoostingClassifier  tuned Successfully with accuracy_score:0.9333333333333333 
+/n2021-09-02/11:57:54		
+ Entered in to Find Model Cluster class 
+/n2021-09-02/11:57:54		
+ Started tuning Logistic regression 
+/n2021-09-02/12:35:07		
+ Logistic regression tuned Success fully with accuracy_score:0.6343926343926344 
+/n2021-09-02/12:35:07		
+ Started tuning Random_Forest_Classifier 
+/n2021-09-02/12:37:46		
+ RandomForestClassifier  tuned Successfully with accuracy_score:0.9414909414909415 
+/n2021-09-02/12:37:46		
+ Started tuning GradientBoostingClassifier 
+/n2021-09-02/12:44:11		
+ GradientBoostingClassifier  tuned Successfully with accuracy_score:0.9352539352539353 
+/n2021-09-02/12:44:11		
+ Training Completed Successfully 
+/n2021-09-02/12:34:49		
+ Training Started 
+/n2021-09-02/12:34:49		Entered get_file_to_train of Get_Data/n2021-09-02/12:34:49		Found new file to train/n2021-09-02/12:34:50		Collected data from TRAIN and Exit Get_Data/n2021-09-02/12:34:50		Entered to Data_Preprocessing Class/n2021-09-02/12:34:50		 Started cleaning spaces in each cells in data frame ,whose dtype is 'object'/n2021-09-02/12:34:50		Done space removal, Exits the space_cleaning method/n2021-09-02/12:34:50		Started to remove irrelevnt columns from dataframe/n2021-09-02/12:34:50		Unwanted columns removed, Exit nouse_columns_remove method of Data_Pre_Process class/n2021-09-02/12:34:50		Started to split_dependent_independent /n2021-09-02/12:34:50		Seperated given dataframe to independent and dependent successfully, Exit split_dependent_independent method of class Data_Pre_Process/n2021-09-02/12:34:50		Started to check for null values /n2021-09-02/12:34:50		Entered to seperate_cat_num for seperating to categorical and numerical dataset/n2021-09-02/12:34:50		categorical and numerical data seperation success/n2021-09-02/12:34:51		started cleaning categorical data/n2021-09-02/12:34:51		cleaned categorical data successfully./n2021-09-02/12:34:52		cleaned categorical data successfully./n2021-09-02/12:34:52		cleaned categorical data successfully./n2021-09-02/12:34:52		cleaned categorical data successfully./n2021-09-02/12:34:52		cleaned categorical data successfully./n2021-09-02/12:34:53		cleaned categorical data successfully./n2021-09-02/12:34:53		cleaned categorical data successfully./n2021-09-02/12:34:53		cleaned categorical data successfully./n2021-09-02/12:34:54		cleaned categorical data successfully./n2021-09-02/12:34:55		Started frequency encoding nominal data/n2021-09-02/12:34:55		Successful frequency encoding nominal data/n2021-09-02/12:34:55		Started imputing_missing_numerical_data /n2021-09-02/12:34:55		Started imputing numerical data/n2021-09-02/12:34:57		Successfully imputed_missing_numerical_data /n2021-09-02/12:34:57		Entered the scale_numerical_data method of Data_Pre_Process class/n2021-09-02/12:34:58		Done Numeric data scaling, Exit scales_numeric_data method in Data_Pre_Process class/n2021-09-02/12:34:58		Entered to balance_data method for balancing dataset/n2021-09-02/12:34:58		Dataset balanced by balance_data method in class Data_Pre_Process /n2021-09-02/12:34:59		
+ Entered clustering_data class/n2021-09-02/12:34:59		
+ Entered clustering method in  clustering_data class/n2021-09-02/12:36:01		
+ Kmeans inertia[2077723559679741.8, 1218422961399838.2, 798718481357188.9, 604500067954103.4, 505474722761375.75, 424245834928395.5, 387932967254488.75, 361251599352040.8, 337939063195703.9]/n2021-09-02/12:36:05		
+ Model for Clustering created successfully in  clustering_data class/n2021-09-02/12:36:05		
+ Clustering done successfully in  clustering_data class/n2021-09-02/12:36:05		
+ Entered in to Find Model Cluster class 
+/n2021-09-02/12:36:05		
+ Started tuning Logistic regression 
+/n2021-09-02/12:37:38		
+ Logistic regression tuned Success fully with accuracy_score:0.6291666666666667 
+/n2021-09-02/12:37:38		
+ Started tuning Random_Forest_Classifier 
+/n2021-09-02/12:44:42		
+ RandomForestClassifier  tuned Successfully with accuracy_score:0.9425595238095238 
+/n2021-09-02/12:44:42		
+ Started tuning GradientBoostingClassifier 
+/n2021-09-02/12:49:35		
+ GradientBoostingClassifier  tuned Successfully with accuracy_score:0.937797619047619 
+/n2021-09-02/12:49:35		
+ Entered in to Find Model Cluster class 
+/n2021-09-02/12:49:35		
+ Started tuning Logistic regression 
+/n2021-09-02/12:50:14		
+ Logistic regression tuned Success fully with accuracy_score:0.6171952701956017 
+/n2021-09-02/12:50:14		
+ Started tuning Random_Forest_Classifier 
+/n2021-09-02/12:55:31		
+ RandomForestClassifier  tuned Successfully with accuracy_score:0.9171179135816112 
+/n2021-09-02/12:55:31		
+ Started tuning GradientBoostingClassifier 
+/n2021-09-02/13:14:01		
+ GradientBoostingClassifier  tuned Successfully with accuracy_score:0.9168968946844955 
+/n2021-09-02/13:14:01		
+ Entered in to Find Model Cluster class 
+/n2021-09-02/13:14:01		
+ Started tuning Logistic regression 
+/n2021-09-02/13:14:19		
+ Logistic regression tuned Success fully with accuracy_score:0.593167701863354 
+/n2021-09-02/13:14:19		
+ Started tuning Random_Forest_Classifier 
+/n2021-09-02/13:15:33		
+ RandomForestClassifier  tuned Successfully with accuracy_score:0.9285714285714286 
+/n2021-09-02/13:15:33		
+ Started tuning GradientBoostingClassifier 
+/n2021-09-02/13:17:36		
+ GradientBoostingClassifier  tuned Successfully with accuracy_score:0.9298136645962732 
+/n2021-09-02/13:17:36		
+ Training Completed Successfully 
+/n2021-09-02/14:15:12		
+ Training Started 
+/n2021-09-02/14:15:12		Entered get_file_to_train of Get_Data/n2021-09-02/14:15:12		Found new file to train/n2021-09-02/14:15:12		Collected data from TRAIN and Exit Get_Data/n2021-09-02/14:15:12		Entered to Data_Preprocessing Class/n2021-09-02/14:15:12		 Started cleaning spaces in each cells in data frame ,whose dtype is 'object'/n2021-09-02/14:15:12		Done space removal, Exits the space_cleaning method/n2021-09-02/14:15:12		Started to remove irrelevnt columns from dataframe/n2021-09-02/14:15:12		Unwanted columns removed, Exit nouse_columns_remove method of Data_Pre_Process class/n2021-09-02/14:15:12		Started to split_dependent_independent /n2021-09-02/14:15:12		Seperated given dataframe to independent and dependent successfully, Exit split_dependent_independent method of class Data_Pre_Process/n2021-09-02/14:15:12		Started to check for null values /n2021-09-02/14:15:12		Entered to seperate_cat_num for seperating to categorical and numerical dataset/n2021-09-02/14:15:12		categorical and numerical data seperation success/n2021-09-02/14:15:12		started cleaning categorical data/n2021-09-02/14:15:12		cleaned categorical data successfully./n2021-09-02/14:15:13		cleaned categorical data successfully./n2021-09-02/14:15:13		cleaned categorical data successfully./n2021-09-02/14:15:13		cleaned categorical data successfully./n2021-09-02/14:15:13		cleaned categorical data successfully./n2021-09-02/14:15:13		cleaned categorical data successfully./n2021-09-02/14:15:13		cleaned categorical data successfully./n2021-09-02/14:15:13		cleaned categorical data successfully./n2021-09-02/14:15:13		cleaned categorical data successfully./n2021-09-02/14:15:13		Started frequency encoding nominal data/n2021-09-02/14:15:13		Successful frequency encoding nominal data/n2021-09-02/14:15:13		Started imputing_missing_numerical_data /n2021-09-02/14:15:13		Started imputing numerical data/n2021-09-02/14:15:14		Successfully imputed_missing_numerical_data /n2021-09-02/14:15:14		Entered the scale_numerical_data method of Data_Pre_Process class/n2021-09-02/14:15:14		Done Numeric data scaling, Exit scales_numeric_data method in Data_Pre_Process class/n2021-09-02/14:15:14		Entered to balance_data method for balancing dataset/n2021-09-02/14:15:14		Dataset balanced by balance_data method in class Data_Pre_Process /n2021-09-02/14:15:14		
+ Entered in to Find Model Cluster class 
+/n2021-09-02/14:15:14		
+ Started tuning Logistic regression 
+/n2021-09-02/14:16:11		
+ Logistic regression tuned Success fully with accuracy_score:0.6157357871460161 
+/n2021-09-02/14:16:11		
+ Started tuning Random_Forest_Classifier 
+/n2021-09-02/14:25:08		
+ RandomForestClassifier  tuned Successfully with accuracy_score:0.9275982595049576 
+/n2021-09-02/14:25:08		
+ Started tuning GradientBoostingClassifier 
+/n2021-09-02/14:57:21		
+ GradientBoostingClassifier  tuned Successfully with accuracy_score:0.9281689136172337 
+/n2021-09-02/14:57:23		
+ Training Completed Successfully 
+/n
